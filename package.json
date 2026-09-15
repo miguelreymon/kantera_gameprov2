@@ -1,0 +1,29 @@
+{
+  "name": "kantera",
+  "version": "1.0.0",
+  "description": "Kantera - Aplicación de visión artificial y análisis táctico para baloncesto (Android / Kotlin / Jetpack Compose)",
+  "scripts": {
+    "dev": "echo 'Entorno Android / Gradle listo'",
+    "build": "gradle assembleDebug",
+    "build:release": "gradle assembleRelease",
+    "bundle": "gradle bundleRelease",
+    "test": "gradle :app:testDebugUnitTest",
+    "lint": "gradle lint",
+    "clean": "gradle clean"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.5"
+  },
+  "keywords": [
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "basketball",
+    "tflite",
+    "mediapipe",
+    "vision"
+  ],
+  "author": "Elena Novelisima",
+  "license": "MIT"
+}
